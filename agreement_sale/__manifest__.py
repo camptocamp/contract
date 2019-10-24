@@ -9,7 +9,7 @@
     "author": "Akretion, " "Odoo Community Association (OCA)",
     "website": "https://github.com/oca/contract",
     "license": "AGPL-3",
-    "depends": ["sale_management", "agreement"],
+    "depends": ["sale_management", "base_contract"],
     "data": [
         "security/ir.model.access.csv",
         "views/agreement.xml",
