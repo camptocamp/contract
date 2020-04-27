@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<odoo>
+
+    <menuitem id="base_contract.agreement_menu" action="base_contract.agreement_action"
+              parent="sale.menu_sale_config" sequence="100"/>
+    <menuitem id="base_contract.agreement_type_menu" action="base_contract.agreement_type_action"
+              parent="sale.menu_sale_config" sequence="101" groups="base_contract.group_use_agreement_type"/>
+
+</odoo>
